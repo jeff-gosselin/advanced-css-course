@@ -1,0 +1,9 @@
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-1-of-2 {
+    flex-basis: 40%;
+    text-align: left;
+}
