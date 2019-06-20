@@ -160,13 +160,28 @@ body {
   text-decoration: none;
   border-bottom: 1px solid #55c57a;
   padding: 3px;
-  transition: all 0.2s; }
+  transition: all .2s; }
 
 .btn-text:hover {
   background-color: #55c57a;
   color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
+
+.composition__photo {
+  width: 55%;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  position: absolute; }
+  .composition__photo--p1 {
+    left: 0;
+    top: -2rem; }
+  .composition__photo--p2 {
+    right: 0;
+    top: 2rem; }
+  .composition__photo--p3 {
+    left: 20%;
+    top: 10rem; }
 
 .header {
   height: 95vh;
@@ -189,8 +204,9 @@ body {
 
 .row {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-evenly; }
 
 .col-1-of-2 {
-  flex-basis: 40%;
-  text-align: left; }
+  flex-basis: 42%;
+  text-align: left;
+  position: relative; }

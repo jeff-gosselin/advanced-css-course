@@ -1,9 +1,10 @@
 .row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly ;
 }
 
 .col-1-of-2 {
-    flex-basis: 40%;
+    flex-basis: 42%;
     text-align: left;
+    position: relative;
 }
